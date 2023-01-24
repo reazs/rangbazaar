@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rangbazaar/constants.dart';
 import 'package:rangbazaar/screens/home_page.dart';
 
 void main() {
@@ -13,9 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter Demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData().copyWith(
+            primaryColor: kPrimaryColor,
+            colorScheme:
+                ThemeData().colorScheme.copyWith(primary: kPrimaryColor)),
         home: const HomePage());
   }
 }

@@ -32,11 +32,16 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  fonts:
+    - family: Merriweather
+      fonts:
+        - asset: fonts/merriweather/MerriWeather-Bold.ttf
+    - family: Quicksand
+      fonts:
+        - asset: fonts/quicksand/Quicksand-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto/Roboto-Regular.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
